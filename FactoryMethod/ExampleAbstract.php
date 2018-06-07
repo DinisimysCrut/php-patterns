@@ -1,11 +1,10 @@
 <?php
 /**
- * Пример реализации паттерна Фабричный метод (не живой/образный пример)
+ * Пример реализации паттерна Фабричный метод (образный пример)
+ * ФАБРИЧНЫЙ МЕТОД - getUnit()
  */
 
-
 /**
- * Interface Kazarma
  * Интерфейс для описания Казармы в общем
  */
 interface Kazarma
@@ -19,7 +18,6 @@ interface Kazarma
 
 
 /**
- * Interface Unit
  * Интерфейс для описания Пехотинца в общем
  */
 interface Unit
@@ -33,7 +31,6 @@ interface Unit
 
 
 /**
- * Class KazarmaRim
  * Казарма для римлян
  */
 class KazarmaRim implements Kazarma
@@ -49,7 +46,6 @@ class KazarmaRim implements Kazarma
 }
 
 /**
- * Class UnitRim
  * Римский пехотинец
  */
 class UnitRim implements Unit
@@ -65,7 +61,6 @@ class UnitRim implements Unit
 }
 
 /**
- * Class KazarmaEgipet
  * Казарма для египтян
  */
 class KazarmaEgipet implements Kazarma
@@ -82,7 +77,6 @@ class KazarmaEgipet implements Kazarma
 
 
 /**
- * Class UnitEgipet
  * Египетский пехотинец
  */
 class UnitEgipet implements Unit
